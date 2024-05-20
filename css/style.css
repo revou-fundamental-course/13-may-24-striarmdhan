@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: Poppins;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/img/wp.png');
+    background-size: 600px;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ededed;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.segitiga-img{
+    width: 250px;
+    height: auto;
+    padding: 0px;
+}
+
+.container h1 {
+    text-align: center;
+    color: rgb(67, 190, 196);
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.rumus {
+    font-weight: bold;
+}
+
+.ket {
+    display: block;
+}
+
+input[type="number"]{
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: #00000057 solid 1.5px;
+    border-radius: 1rem;
+}
+button {
+    width: calc(100% - 90px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: #0000006a solid 1.8px;
+    border-radius: 1rem;
+    background-color: rgb(67, 190, 196);
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button a{
+    text-decoration: none;
+    color: #000;
+}
+button:hover {
+    background-color: rgb(67, 190, 226);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+#result {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: justify;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Satria</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Matematika</h1>
+        <h2>Keliling Segitiga</h2>
+        <img src="/img/alas.png" alt="segitiga" class="segitiga-img">
+        <h3>Rumus Keliling Segitiga :</h3>
+        <p class="rumus">K = S1 + S2 + S3</p>
+        <p class="ket">
+            Keterangan : <br>
+            K = keliling <br>
+            S1 = Sisi A <br>
+            S2 = Sisi B <br>
+            S3 = Sisi C
+        </p>
+        <form id="KalkulatorForm">
+            <input type="number" id="number1" placeholder="Nilai A">
+            <input type="number" id="number2" placeholder="Nilai B">
+            <input type="number" id="number3" placeholder="Nilai C">
+            <button type="button" onclick="calculateKeliling()">Hitung</button>
+            <button type="clear" onclick="reset()">Reset</button>
+        </form>
+        <div id="result" class="result"></div>
+        <a href="index.html">
+            <button>Hitung Luas</button>
+        </a>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

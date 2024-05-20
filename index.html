@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Satria</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Matematika</h1>
+        <h2>Luas Segitiga</h2>
+        <img src="/img/alas.png" alt="segitiga" class="segitiga-img">
+        <h3>Rumus Luas Segitiga :</h3>
+        <p class="rumus">L = 1/2 * a * t</p>
+        <p class="ket">
+            Keterangan : <br>
+            L = Luas <br>
+            a = alas <br>
+            t = tinggi <br>
+        </p>
+        <form id="KalkulatorForm">
+            <input type="number" id="number1" placeholder="Nilai alas">
+            <input type="number" id="number2" placeholder="Nilai tinggi">
+            <button type="button" onclick="calculate()">Hitung</button>
+            <button type="clear" onclick="reset()">Reset</button>
+        </form>
+        <div id="result" class="result"></div>
+        <a href="keliling.html">
+            <button>Hitung Keliling</button>
+        </a>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
